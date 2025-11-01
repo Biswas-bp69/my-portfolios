@@ -77,7 +77,14 @@ header {
 .primary-btn:hover {
   background: #218838;
 }
-
+.homeBtn{
+  padding: 5px;
+  border-radius:5px ;
+}
+.homeBtn:hover {
+  background: #218838;
+  color: white;
+}
 /* Quiz Box */
 .quiz-box {
   background: white;
