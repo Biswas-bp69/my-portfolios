@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* योले content lai tala push gar्छ */
+main, .main-content {
+  flex: 1; /* footer lai tala push garne magic line */
+}
+
+/* तिम्रो पुरानो footer style */
+footer {
+  border: 1px solid navy;
+  background-color: #03034a;
+}
+
+.contactBtn button {
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contactBtn {
+  color: white;
+}

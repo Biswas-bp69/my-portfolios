@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz</title>
+
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="footer.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+      <div id="header"></div>
+      <main>
+            <div class="quiz-container pt-5 shadow-lg p-3 mb-5 bg-body rounded ">
+
+    <nav class="quiz-navbar">
+      <h1>📝 Online Quiz</h1>
+      <div class="nav-right">
+        <button id="timer quiz-button ">⏱️ 30</button>
+        <button onclick="logout()" class="logout-btn quiz-button">Logout</button>
+        <a href="https://biswasparajuli69.com.np/"><button class="homeBtn quiz-button">Home</button></a>
+      </div>
+    </nav>
+
+    <!-- Category Selector -->
+    <div id="categorySelector" class="quiz-center-box ">
+      <h2>Select Quiz Category</h2>
+      <div class="">
+           <select id="categorySelect"></select>
+      <button onclick="startQuiz()" class="primary-btn quiz-startButton">Start Quiz</button>
+      </div>
+     
+    </div>
+
+    <!-- Quiz Area -->
+     <div id="media" class="media-section"></div>
+
+    <div id="quizArea" class="quiz-box" style="display: none;">
+      <div id="questionContainer">
+        <h2 id="questionNumber"></h2>
+        <p id="questionText"></p>
+        <img id="questionImage" src="" alt="" class="question-img" />
+        <div id="optionsContainer" class="options-grid"></div>
+      </div>
+
+      <div class="navigation">
+        <button onclick="prevQuestion()" class="nav-btn">⏪ Previous</button>
+        <button onclick="nextQuestion()" class="nav-btn">Next ⏩</button>
+      </div>
+    </div>
+  </div>
+
+      </main>
+  
+    
+   <div id="footer"></div>
+   <script>
+    fetch('header.html')
+    .then(Response => Response.text())
+    .then(data => document.getElementById('header').innerHTML = data);
+    fetch('footer.html')
+    .then(Response => Response.text())
+    .then(data => document.getElementById('footer').innerHTML = data);
+
+
+   </script>
+  <script src="quizScript.js"></script>
+</body>
+</html>
