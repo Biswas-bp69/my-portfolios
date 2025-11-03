@@ -10,7 +10,7 @@ let selectedCategory = "";
 
 function logout() {
   localStorage.removeItem('role');
-  window.location.href = 'login.html';
+  window.location.href = 'quizLogin.html';
 }
 
 // Start Quiz
@@ -142,7 +142,7 @@ function finishQuiz() {
   };
 
   localStorage.setItem('quizResult', JSON.stringify(resultData));
-  window.location.href = 'result.html';
+  window.location.href = 'quizResult.html';
 }
 
 // On load: populate categories

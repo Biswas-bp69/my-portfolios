@@ -1,6 +1,6 @@
 function logout() {
   localStorage.removeItem('role');
-  window.location.href = 'login.html';
+  window.location.href = 'quizLogin.html';
 }
 
 window.onload = function () {
@@ -8,7 +8,7 @@ window.onload = function () {
 
   if (!result) {
     alert("No result found.");
-    window.location.href = 'index.html';
+    window.location.href = 'quiz.html';
     return;
   }
 

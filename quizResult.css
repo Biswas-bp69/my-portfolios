@@ -44,14 +44,7 @@ header h1 {
   cursor: pointer;
   font-size: 14px;
 }
-.homeBtn{
-  padding: 5px;
-  border-radius:5px ;
-}
-.homeBtn:hover {
-  background: #218838;
-  color: white;
-}
+
 /* Summary Section */
 .summary {
   background: #e9f7ef;
