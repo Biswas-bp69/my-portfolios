@@ -7,7 +7,7 @@ if (localStorage.getItem('role') !== 'teacher') {
 // Logout handler
 function logout() {
   localStorage.removeItem('role');
-  window.location.href = 'login.html';
+  window.location.href = 'quizLogin.html';
 }
 
 // ===== CATEGORY MANAGEMENT =====

@@ -19,9 +19,7 @@ header{
     color: rgb(0, 0, 0);
 }
 
-.searchBox{
-    border-radius: 0px;
-}
+
 .searchBtn{
     background-color: green;
     color: white;
@@ -98,16 +96,4 @@ header{
     background: linear-gradient(to right,#0ACEFE,#2699F8);
 }
 
-footer{
-    border: 1px solid navy;
-    background-color: #03034a;
 
-}
-.contactBtn button {
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-.contactBtn{
-    color: white;
-}

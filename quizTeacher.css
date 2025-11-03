@@ -8,9 +8,14 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #f5f6fa;
-  padding: 30px;
+  
 }
-
+.catagoryTopic{
+  background-color: #007bff;
+  padding: 20px 5px;
+  border-radius: 10px;
+  color: white;
+}
 .container {
   max-width: 1100px;
   margin: auto;
@@ -26,6 +31,7 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  border: 2px solid navy;
 }
 
 .logout-btn {
@@ -153,4 +159,7 @@ header {
   font-style: italic;
   color: #666;
 }
-
+.quizCatagory{
+  border: 1px solid navy;
+  padding: 30px;
+}

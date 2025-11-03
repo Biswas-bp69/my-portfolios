@@ -14,12 +14,14 @@
 .btn {
     line-height: 1;
 }
+
 .myDetails{
     margin-top: 30px;
 }
 .my-picture{
-    margin-top: 25px;
+    margin-top: 45px;
     height: 380px;
+    padding-bottom: 700px;
 }
 .textBoxItems{
     align-items: center;
@@ -38,10 +40,7 @@
     font-size: 17px;
     text-align: justify;
 }
-.contactBtn button{
-    width: 200px;
-    height: 30px;
-}
+
 
 }
 
