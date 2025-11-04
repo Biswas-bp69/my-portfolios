@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Biswas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        main{
+    margin-top: 200px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div id="header"></div>
+<main class="text-center" >
+        <h1 style="background-color: yellow; color: navy; font-weight: 700; display: inline; padding: 20px;">Comming soon !!! </h1>
+
+</main>
+    <div id="footer"></div>
+   <script>
+    fetch('header.html')
+    .then(Response => Response.text())
+    .then(data => document.getElementById('header').innerHTML = data);
+    fetch('footer.html')
+    .then(Response => Response.text())
+    .then(data => document.getElementById('footer').innerHTML = data);
+
+
+   </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
