@@ -20,9 +20,11 @@
 }
 .my-picture{
     margin-top: 45px;
-    height: 380px;
+    height: 200px;
     padding-bottom: 700px;
 }
+
+
 .textBoxItems{
     align-items: center;
     justify-content: center;
