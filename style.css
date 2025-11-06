@@ -32,6 +32,8 @@ header{
         background: linear-gradient(to right, #8ed296, #85ebd1);
         color: rgb(1, 6, 50);
         font-weight: 600;
+        border: 1px solid white;
+        width: 80px;
     
 }
 .slide{

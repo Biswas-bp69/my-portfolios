@@ -27,5 +27,45 @@
   </div>
 
   <script src="quizResult.js"></script>
+
+  <style>
+/* Disable text selection */
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style>
+
+<script>
+// Disable Right Click
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
+// Disable Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+  // F12
+  if (e.keyCode === 123) e.preventDefault();
+
+  // Ctrl + U
+  if (e.ctrlKey && e.key === 'u') e.preventDefault();
+
+  // Ctrl + Shift + I / J / C
+  if (e.ctrlKey && e.shiftKey &&
+     (e.key === 'I' || e.key === 'J' || e.key === 'C')) e.preventDefault();
+
+  // Ctrl + C / A / X / P
+  if (e.ctrlKey &&
+     (e.key === 'c' || e.key === 'a' ||
+      e.key === 'x' || e.key === 'p')) e.preventDefault();
+});
+
+// Disable selection + copy events
+document.onselectstart = function() { return false; };
+document.oncopy = function() { return false; };
+document.oncut = function() { return false; };
+</script>
 </body>
 </html>
