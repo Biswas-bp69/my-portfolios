@@ -5,12 +5,10 @@ html, body {
   flex-direction: column;
 }
 
-/* योले content lai tala push gar्छ */
 main, .main-content {
-  flex: 1; /* footer lai tala push garne magic line */
+  flex: 1;
 }
 
-/* तिम्रो पुरानो footer style */
 footer {
   border: 1px solid navy;
   background-color: #03034a;
@@ -25,9 +23,6 @@ footer {
 .contactBtn {
   color: white;
 }
-
-
-
 
 @media only screen and (min-width:200px) and (max-width:575px){
     .contactBtn button{

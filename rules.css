@@ -1,5 +1,5 @@
 
-    .rulesHeader {
+    .rulesHeader,.rulesSecondHeader {
         margin: 169px 10px 0px 10px;
         background: #18183c;
         padding: 10px;
@@ -11,7 +11,13 @@
       }
 
 
+      .rulsContactBtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
+        
+      }
       .rulesTextBox{
 
         border: 1px solid lightgray;
@@ -36,6 +42,9 @@
         font-weight: 700;
         border-radius: 15px;
 
+      }
+      .rulesSecondHeader{
+        margin-top: 30px;
       }
 
       .rulesArea{
