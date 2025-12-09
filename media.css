@@ -30,10 +30,7 @@
     border: 2px solid navy;
     border-radius: 5px;
 }
-.textBoxItems img {
-    width: 90px;
-    height: 100px;
-}
+
 .textBoxItems h4 {
     font-size: 20px;
 }
