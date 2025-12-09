@@ -15,6 +15,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        /* Disable text selection */
+        body{
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+</style>
 </head>
 <body>
     
@@ -127,7 +136,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form class="bannerForm p-3 " action="">
+                        <form class="bannerForm p-3">
                             <div class="mb-4">
                                 <label class="form-label">Name</label>
                                 <input type="text" class="form-control">
@@ -162,7 +171,7 @@
                             </div>
                             <div class="mb-4">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                             </div>
                             <div class="mb-4">
@@ -172,7 +181,7 @@
                             <div class="mb-4">
                                 <label class="form-label">Phone</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="basic-addon1">+977</span>
+                                    <span class="input-group-text">+977</span>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
@@ -193,27 +202,27 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header formTitle">
-                        <h5 class="modal-title " id="exampleModalLabel">Login Now</h5>
+                        <h5 class="modal-title ">Login Now</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form class="bannerForm p-3 " action="">
+                        <form class="bannerForm p-3">
                             <div class="mb-4">
                                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                <input type="email" class="form-control"aria-describedby="emailHelp">
+                                <div class="form-text">We'll never share your email with anyone else.</div>
                             </div>
                             <div class="mb-4">
                                 <label class="form-label">Phone</label>
                                 <div class="input-group">
-                                    <span class="input-group-text" id="basic-addon1">+977</span>
+                                    <span class="input-group-text">+977</span>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="mb-4">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
                                 <input type="password" class="form-control" id="exampleInputPassword1">
-                                <div id="emailHelp" class="form-text">We'll never share your password with anyone else.</div>
+                                <div class="form-text">We'll never share your password with anyone else.</div>
                             </div>    
                             <div class="mb-4 registerBtn text-center">
                                 <button class="">Login Now</button>
@@ -236,16 +245,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-<style>
 
-    
-/* Disable text selection */
-body {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-</style>
 </body>
 </html>
